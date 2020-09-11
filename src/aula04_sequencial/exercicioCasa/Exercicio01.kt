@@ -1,14 +1,16 @@
-package aula04_sequencial
+package aula04_sequencial.exercicioCasa
 
-fun main() {
 //    1. Faça um Programa que peça as 4 notas bimestrais e mostre a média.
-//04
+
 //    Digite a nota 1: 10
 //    Digite a nota 2: 5
 //    Digite a nota 3: 7
 //    Digite a nota 4: 8
 //    A média é 7,5
 //
+
+fun main() {
+
         print("Digite a nota 1: ")
         var primeiraNota = readLine()!!.toDouble()
 

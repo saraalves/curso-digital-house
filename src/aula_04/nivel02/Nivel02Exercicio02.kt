@@ -1,6 +1,4 @@
-package aula_04
-
-fun main () {
+package aula_04.nivel02
 
 //    2. Faça um Programa que pergunte quanto você ganha por hora e o número dehoras trabalhadas no mês.
 //    Calcule e mostre o total do seu salário no referido mês,sabendo-se que são descontados 11% para o Imposto de Renda,
@@ -13,6 +11,8 @@ fun main () {
 //    - INSS (8%) : R$
 //    - Sindicato ( 5%) : R$
 //    = Salário Líquido : R$
+
+fun main () {
 
     print("Informe o valor do seu salário por hora: ")
     var salarioPorHora = readLine()!!.toDouble();

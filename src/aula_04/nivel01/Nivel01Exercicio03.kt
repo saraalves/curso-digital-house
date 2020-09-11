@@ -1,7 +1,8 @@
-package aula_04
+package aula_04.nivel01
+
+//    3. Faça um Programa que converta metros para centímetros.
 
 fun main() {
-//    3. Faça um Programa que converta metros para centímetros.
 
     var metros = 5.0
     var conversorCentimetro = metros * 100

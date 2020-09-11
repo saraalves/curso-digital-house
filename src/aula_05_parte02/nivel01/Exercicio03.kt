@@ -1,4 +1,4 @@
-package aula_05_parte02
+package aula_05_parte02.nivel01
 
 fun main() {
         print("Digite o 1º número inteiro:")

@@ -1,4 +1,4 @@
-package aula_05_parte02
+package aula_05_parte02.nivel01
 
 fun main() {
     for (numero in 1..50 ) {

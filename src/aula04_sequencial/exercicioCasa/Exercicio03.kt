@@ -1,6 +1,5 @@
-package aula04_sequencial
+package aula04_sequencial.exercicioCasa
 
-fun main() {
 //    3. Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que
 //    calcule seu peso ideal, utilizando as seguintes fórmulas:
 
@@ -11,6 +10,8 @@ fun main() {
 //    Digite a altura: 1.73
 //    Para homens: 67,77
 //    Para mulheres: 62,73
+
+fun main() {
 
     print("Digite sua altura: ")
     var h = readLine()!!.toDouble()

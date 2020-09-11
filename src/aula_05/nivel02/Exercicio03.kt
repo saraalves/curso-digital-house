@@ -1,6 +1,5 @@
-package aula_05
+package aula_05.nivel02
 
-fun main () {
 //    3. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. Asperguntas são
 
 //    "Telefonou para a vítima?"
@@ -16,5 +15,6 @@ fun main () {
 
 //    Use “S” para sim e “N” para não.
 
+fun main () {
 
 }

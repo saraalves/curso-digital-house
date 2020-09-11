@@ -1,8 +1,9 @@
-package aula_05
+package aula_05.nivel02
 
-fun main() {
 //    2. Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar.
 //    Dica: utilize o operador módulo (resto da divisão).
+
+fun main() {
 
     print("Digite um numero inteiro: ")
     var numeroInteiro = readLine()!!.toInt()
