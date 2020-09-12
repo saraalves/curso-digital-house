@@ -8,16 +8,14 @@ fun main() {
 
     do {
         println("Digite um número: ")
-        val numero = readLine()!!.toInt()
+        val numeroDigitado = readLine()!!.toInt()
 
-        if (numero > numeroMaior) {
-            numeroMaior = numero
+        if (numeroDigitado > numeroMaior) {
+            numeroMaior = numeroDigitado
         }
         contador++
 
     }
     while(contador <= 5)
     print("O número maior é $numeroMaior")
-
-
 }
