@@ -12,4 +12,19 @@ package aula_05_parte02.nivel02
 
 fun main() {
 
+    print("Informe qual número deseja ver a tabuada: ")
+
+    var numeroTabuada = readLine()!!.toInt()
+    println("Tabuada de ${numeroTabuada}: ")
+
+    if(numeroTabuada in 1..10) {
+        for(count in 1..10){
+            var resultado = numeroTabuada * count
+            println("$numeroTabuada x $count = $resultado")
+        }
+    } else {
+        println("Informe um numero de 1 a 10")
+    }
+
 }
+

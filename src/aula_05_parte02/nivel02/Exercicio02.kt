@@ -6,4 +6,20 @@ package aula_05_parte02.nivel02
 
 fun main() {
 
+    print("Informe a quantidade de CDs: ")
+
+    var quantidadeCds = readLine()!!.toInt()
+    var contador = 0
+    var valorTotal = 0.0
+
+    while(quantidadeCds > 0) {
+        quantidadeCds--
+        print("Informe o valor do ${++contador}º CD: ")
+        val valorCd = readLine()!!.toDouble()
+        valorTotal += valorCd
+    }
+
+    val media = valorTotal / contador
+    println("O valor total investido em CDs é de $valorTotal")
+    println("A media de gastos em cada CD é de $media")
 }
