@@ -7,7 +7,6 @@ package aula_06_parte02
 
 fun main() {
     print(somaImposto(2.0, 20.0))
-
 }
 
 fun somaImposto(taxaImposto: Double, custo: Double): Double {
