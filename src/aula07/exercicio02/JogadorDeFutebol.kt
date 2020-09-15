@@ -1,11 +1,27 @@
 package aula07.exercicio02
 
-class JogadorDeFutebol(nome: String, gols: Int, energia: Int, alegria: Int, exeperiencia: Int) {
+class JogadorDeFutebol(nome: String) {
 
     var energia: Int = 0
     var alegria: Int = 0
     var gols: Int = 0
-    val experiencia: Int = 0
+    var experiencia: Int = 0
+
+    init{}
+
+    constructor() : this("") {}
+
+    constructor(nomeJogador: String, experiencia: Int) : this(nomeJogador) {
+        this.experiencia = experiencia
+
+    }
+
+    constructor(nomeJogador: String, energia:Int, alegria: Int, gols: Int, experiencia: Int) : this(nomeJogador) {
+        this.energia = energia
+        this.alegria = alegria
+        this.gols = gols
+        this.experiencia = experiencia
+    }
 
     fun fazerGol() {
 

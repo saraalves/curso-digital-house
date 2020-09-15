@@ -1,8 +1,8 @@
 package aula07.exercicio03
 
 fun main() {
-    val atleta1 = Atleta("João", 8, 10)
-    val atleta2 = Atleta("Maria", 9, 10)
+    val atleta1 = Atleta("João", 100, 100)
+    val atleta2 = Atleta("Maria", 100, 100)
 
     val prova1 = Prova(10, 9)
     val prova2 = Prova(9, 8)
