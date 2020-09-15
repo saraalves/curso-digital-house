@@ -1,22 +1,20 @@
 package aula07.exercicio01
 
-class Contas(numeroDaConta: Int, titular: Clientes) {
+class Contas(val numeroDaConta: Int, var saldo: Double, val titular: Clientes) {
 
-    var saldo: Double = 0.0
+    fun depositar(quantiaEmDinheiro: Double) {
 
-    fun deposito(quantiaEmDinheiro: Double) {
-
-        val totalDeposito = quantiaEmDinheiro + saldo
-        println("Depósito realizado com sucesso o valor do depósito foi de $totalDeposito")
+        saldo += quantiaEmDinheiro
+        println("Depósito realizado com sucesso o valor do depósito foi de $saldo")
     }
 
-    fun saque(quantiaEmDinheiro: Double) {
+    fun sacar(quantiaEmDinheiro: Double) {
 
         if(quantiaEmDinheiro > saldo){
             println("Saldo insuficiente")
         } else {
-            val totalSaque = quantiaEmDinheiro - saldo
-            println("Saque realizado com sucesso a quantia sacada foi de $totalSaque")
+            saldo -= quantiaEmDinheiro
+            println("Saque realizado com sucesso a quantia sacada foi de $saldo")
         }
     }
 }
