@@ -1,7 +1,5 @@
 package lista_de_exercicios
 
-import aula_06.nivel01.PERGUNTA
-
 /*
 1) Escrever o código que deve analisar três números inteiros e retornar o maior
 deles.
