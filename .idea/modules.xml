@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aula-04.iml" filepath="$PROJECT_DIR$/aula-04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/curso-digital-house.iml" filepath="$PROJECT_DIR$/curso-digital-house.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dh.iml" filepath="$PROJECT_DIR$/dh.iml" />
     </modules>
   </component>
 </project>
