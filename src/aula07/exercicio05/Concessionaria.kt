@@ -8,6 +8,8 @@ class Concessionaria {
         val novaVenda =  Venda(cliente, veiculo, valor)
 
         registroDeVendas.add(novaVenda)
+
+        println("Venda realizada com sucesso! Você tem no registro ${registroDeVendas.size} de vendas")
     }
 
 }
