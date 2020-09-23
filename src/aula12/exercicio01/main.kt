@@ -15,15 +15,5 @@ fun main() {
 
     val listaDePessoasPorEstado = listOf(pessoa1, pessoa2, pessoa3, pessoa4, pessoa5, pessoa6, pessoa7, pessoa8, pessoa9, pessoa10)
 
-    val pessoasAgrupadas = mutableMapOf<Estado, MutableList<Pessoa>>()
-
-    listaDePessoasPorEstado.forEach{
-        if(!pessoasAgrupadas.containsKey(it.estado)){
-            pessoasAgrupadas[it.estado] = mutableListOf()
-        }
-
-        pessoasAgrupadas[it.estado]?.add(it)
-    }
-
-    println(pessoasAgrupadas)
+    println(listaDePessoasPorEstado.groupBy { it.estado.sigla })
 }
